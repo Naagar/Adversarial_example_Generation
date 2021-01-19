@@ -1,3 +1,4 @@
+Refrence https://pytorch.org/tutorials/beginner/fgsm_tutorial.html#threat-model
 # Adversial_example_Generation
 Fast Gradient Sign Attack
     the attack uses the gradient of the loss w.r.t the input data, then adjusts the input data to maximize the loss.
