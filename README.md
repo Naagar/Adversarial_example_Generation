@@ -1,4 +1,3 @@
-Refrence https://pytorch.org/tutorials/beginner/fgsm_tutorial.html#threat-model
 # Adversial_example_Generation
 Fast Gradient Sign Attack
     the attack uses the gradient of the loss w.r.t the input data, then adjusts the input data to maximize the loss.
@@ -63,3 +62,5 @@ pretrained_model - path to the pretrained MNIST model which was trained with pyt
             plt.imshow(ex, cmap="gray")
     plt.tight_layout()
     plt.show()
+
+Refrence https://pytorch.org/tutorials/beginner/fgsm_tutorial.html#threat-model
